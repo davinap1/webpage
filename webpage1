@@ -1,0 +1,49 @@
+<!DOCTYPE html> //always right at the top and tells browser looking at HTML file 
+
+<html>
+<head> // extra information that doesnt show up on screen
+
+    <meta charset= "utf-8"> <!-- ensures that the webpage will display special characters and symbols from diff languages -->
+
+    <title> my first website</title>
+    <link rel="stylesheet" href="css/style.css">
+
+<body style="background-color:#000; color:#FFF;">// content that user sees 
+    <h1> Welcome!</h1>
+
+    <h2 style="color:rgb(93, 178, 248); font-size:40px;";> This is to change color! </h2>
+s
+    <strong> Makes things bold </strong>
+
+
+    <em> Makes things italic. Stands for emphasis</em>
+
+    <!--> This is an HTML comment. Only notes to yourself.  
+        b and i does not add meaning to text only bolds and italics do not use  -->
+
+    <a href="http://www.google.com "> this will link you to google. This is an absolute link</a>
+
+    <p style="color: blueviolet; font-size:20px; font-family: sans-serif;">My first website! Hi gaiz!</p>
+
+    <p> very cool! The p tag makes new paragraphs </p>
+
+
+    <div> I am inside a div. This helps separate. It stands for divide. </div>
+    <div> this is a second div. We use classes to organize layout. Class is the name 
+        of the div and we want it to be descriptive.  </div>
+
+    <div class="top-section"> we want the name to be descriptive. we use period to 
+        signify class
+    </div>
+
+    <span class="hightlight"> just to use for different properties </span>
+
+    <div id="specific"> an ID is very specific and can only have one per. Unique. </div>
+
+<img src= "https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg" alt=" flower field"> 
+<!-- copy image address. need alt for those using screen reader. description of photo-->
+
+</body>
+    
+</head>
+</html>
